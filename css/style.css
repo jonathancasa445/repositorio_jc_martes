@@ -1,0 +1,29 @@
+/* Selectores */
+/*
+Selector{
+  Propiedad: Valor;
+}
+*/
+/* Selector Universal: aplica a todos los elementos de la pagina */
+:root{
+  --color-texto: #55aede;
+  --color-fondo: #ece5d9;
+  --color-acento: #f620d9;
+  --color-rojo: #ff0000;
+  --color-blanco: #ece5d9;
+
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  color: var(--color-texto);
+  background-color: var(--color-fondo);
+  font-family: 'Playwrite NZ Guides', sans-serif;
+}
+
+#imagen1{
+  width: 300px;
+}
